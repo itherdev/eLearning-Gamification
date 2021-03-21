@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+/*------------------ Dashboard--------------------------*/
+
 Route::get('/', function () {
     return view('index');
 });
+
+/*------------------ Course--------------------------*/
+Route::get('course', 'CourseController@index')->name('course');
+// Matkul 
+Route::get('course1', 'Course1Controller@index')->name('course1');

@@ -9,16 +9,22 @@
         <ul class="sidebar-menu">
           <li class="menu-header">Home</li>
           <li class="">
-            <a href="#" class="nav-link"><i class="fas fa-fire"></i><span>Home</span></a>
+            <a href="#" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
           </li>
           <li class="#">
-            <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>Course</span></a>
+            <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>Play Game</span></a>
           </li>
           <li class="#">
-            <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>Match Question</span></a>
+            <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>My Question</span></a>
           </li>
           <li class="#">
-            <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>Event</span></a>
+            <a href="{{ route('course')}}" class="nav-link"><i class="fas fa-folder-open"></i><span>Course</span></a>
+          </li>
+          <li class="#">
+            <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>Exams</span></a>
+          </li>
+          <li class="#">
+            <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>challenges</span></a>
           </li>
           <li class="#">
             <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>Achievement</span></a>
@@ -27,7 +33,7 @@
             <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>Leaderboard</span></a>
           </li>
           <li class="#">
-            <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>FaQ</span></a>
+            <a href="#" class="nav-link"><i class="fas fa-folder-open"></i><span>My Score</span></a>
           </li>
           
         </ul>
